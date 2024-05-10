@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet"
+href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="page1">
+<div data-role="header">
+<h1>First page</h1>
+</div>
+
+<div>
+    <form>
+        Enter Name : <input type="text" placeholder="Enter your full name" />   <br><br>
+        Enter your email : <input type="email" />      <br><br>
+        Enter password : <input type="password"/>      <br><br>
+        Select your age : <input list="techOptions" />
+
+        <datalist id="techOptions">
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+        </datalist>   <br><br>
+        <input type="submit" value="Submit" /> 
+  </form>
+</div>
+
+
+<div data-role="footer">
+<h4>Click following link for next page</h4>
+<a href="#page2">Next Page</a>
+</div>
+</div>
+
+
+<div data-role="page" id="page2">
+<div data-role="header">
+<h1>Welcome To Second Page</h1>
+<a href="#page1" data-icon="arrow-1" class="ui-btn-left">Back</a>
+</div>
+
+
+<div>
+    <form>
+        Enter Name : <input type="text" placeholder="Enter your full name" />   <br><br>
+        Enter your email : <input type="email" />      <br><br>
+        Enter password : <input type="password"/>      <br><br>
+        Select your age : <input list="techOptions" />
+
+        <datalist id="techOptions">
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+        </datalist>   <br><br>
+        <input type="submit" value="Submit" /> 
+  </form>
+</div>
+
+<div data-role="footer">
+<h4>Thank You</h4>
+</div>
+</div>
+</body>
+</html>
